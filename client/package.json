@@ -1,0 +1,14 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.25.0"
+  },
+  "scripts": {
+    "server:prepare": "cd ../server && yarn && cd ../client",
+    "server": "cd ../server && yarn server && cd ../client",
+    "server:first": "yarn server:prepare && yarn server"
+  }
+}
