@@ -71,6 +71,38 @@
       "name": "[리뉴얼]젓가락(종이)-정성을 담아",
       "price": 21800,
       "image": "https://cdn-mart.baemin.com/sellergoods/main/5297837f-5ecd-4945-be2f-4a75854cd06e.jpg"
+    },
+    {
+      "products": {
+        "price": 10000,
+        "name": "치킨",
+        "imageUrl": "http://example.com/chicken.jpg"
+      },
+      "id": 13
+    },
+    {
+      "products": {
+        "price": 10000,
+        "name": "치킨",
+        "imageUrl": "http://example.com/chicken.jpg"
+      },
+      "id": 14
+    },
+    {
+      "products": {
+        "price": 10000,
+        "name": "치킨",
+        "imageUrl": "http://example.com/chicken.jpg"
+      },
+      "id": 15
+    },
+    {
+      "products": {
+        "price": 10000,
+        "name": "치킨",
+        "imageUrl": "http://example.com/chicken.jpg"
+      },
+      "id": 16
     }
   ],
   "carts": [
