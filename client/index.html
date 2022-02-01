@@ -16,23 +16,23 @@
          GET  find All
       */
 
-      const products = async () => await axios.get("/products");
-      const carts = async () => await axios.get("/carts");
-      const orders = async () => await axios.get("/orders");
+      // const products = async () => await axios.get("/products");
+      // const carts = async () => await axios.get("/carts");
+      // const orders = async () => await axios.get("/orders");
 
-      products().then((res) => console.log("products - findall : ", res.data));
-      carts().then((res) => console.log("carts - findall : ", res.data));
-      orders().then((res) => console.log("orders - findall : ", res.data));
+      // products().then((res) => console.log("products - findall : ", res.data));
+      // carts().then((res) => console.log("carts - findall : ", res.data));
+      // orders().then((res) => console.log("orders - findall : ", res.data));
 
       /*
          GET  find by ID
       */
 
-      const product = async () => await axios.get("/products/1");
-      const order = async () => await axios.get("/orders/1");
+      // const product = async () => await axios.get("/products/1");
+      // const order = async () => await axios.get("/orders/1");
 
-      product().then((res) => console.log("product - findById : ", res.data));
-      order().then((res) => console.log("order - findById : ", res.data));
+      // product().then((res) => console.log("product - findById : ", res.data));
+      // order().then((res) => console.log("order - findById : ", res.data));
 
       /*
          POST
@@ -53,9 +53,9 @@
       //   await axios.post("/carts", {
       //     product: {
       //       id: 1,
-      //       name: "Product 1",
+      //       name: "123",
       //       price: 100,
-      //       imageUrl: "123.com",
+      //       imageUrl: "123",
       //     },
       //   });
 
@@ -69,15 +69,12 @@
               name: "Product 1",
               price: 100,
               imageUrl: "123.com",
-              quantity: 3,
+              quantity: 1,
             },
           ],
         });
 
-      console
-        .log
-        // postOrder().then((res) => console.log("postOrder : ", res.data))
-        ();
+      postOrder();
     </script>
   </body>
 </html>
