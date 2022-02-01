@@ -21,3 +21,13 @@ const order = await axios.get("/orders/1");
 
 console.log("findById :", product);
 console.log("findById :", order);
+
+/*
+   POST
+*/
+
+// const postProduct = await axios.post("/products", {
+//   name: "Product 1",
+//   price: 100,
+//   imageUrl: "123.com",
+// });
